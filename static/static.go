@@ -27,7 +27,6 @@ func Static() http.FileSystem {
 	return http.FS(f)
 }
 
-//go:embed view/*
 var view embed.FS
 
 func ZhHant() http.FileSystem {
